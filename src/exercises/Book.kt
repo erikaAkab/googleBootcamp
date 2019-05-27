@@ -1,9 +1,11 @@
 package exercises
 
+import kotlin.random.Random
+
 const val MAX_BOOKS = 10
 
 
-class Book(val title: String, val author: String, val year: Int) {
+class Book(val title: String, val author: String, val year: Int, var pages: Int) {
     companion object {
         const val BASE_URL = "http:/algo"
     }
@@ -23,6 +25,18 @@ class Book(val title: String, val author: String, val year: Int) {
     }
 }
 
+fun Book.getWeight() = pages * 1.5
+
+fun Book.tornPages(tornPages: Int) {
+    pages -= tornPages
+}
+
+class Puppy() {
+    fun playWithBook(book: Book) {
+        book.tornPages(Random.nextInt(book.pages + 1))
+    }
+}
+
 fun getInfo(book: Book): Pair<String, String> {
     return book.author to book.title
 }
@@ -32,7 +46,15 @@ fun getFullInfo(book: Book): Triple<String, String, Int> {
 }
 
 fun main() {
-    val book = Book("livro", "fulano", 2001)
+    val book = Book("livro", "fulano", 2001, 50)
+    val puppy = Puppy()
+    println("Number of pages: ${book.pages}")
+
+    while (book.pages > 0) {
+        puppy.playWithBook(book)
+        println(book.pages)
+    }
+
 //    val (author, title, year) = getFullInfo(book)
 //    println("Here is your book $title written by $author in $year")
 //    val (author2, title2) = getInfo(book)
