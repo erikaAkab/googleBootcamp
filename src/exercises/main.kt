@@ -1,7 +1,13 @@
 package exercises
 
 fun main(args: Array<String>) {
-    buildSimpleSpice()
+//    buildSimpleSpice()
+    val game = Game()
+
+    while(true) {
+        print("Enter a direction: n/s/e/w:")
+        game.makeMove(readLine())
+    }
 }
 
 private fun buildSimpleSpice() {

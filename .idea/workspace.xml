@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa3f6a5-769b-4f18-8677-2bd8e01b9707" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Aquarium5/Aquarium5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/Directions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/Game.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/buildings/Building.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/buildings/Building.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/buildings/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/buildings/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aquarium/buildings/Buildings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/buildings/Buildings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aquarium/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/exercises/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/exercises/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/exercises/SpiceContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/exercises/SpiceContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercises.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,19 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AMS.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Exercises.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="405">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -68,11 +62,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aquarium/main.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exercises/Directions.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exercises/Game.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exercises/main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aquarium5/Aquarium5.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -92,9 +122,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Enum" />
         <option value="Kotlin Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>List</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,19 +139,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/AMS.kt" />
-        <option value="$PROJECT_DIR$/src/Exercises.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/Fish.kt" />
         <option value="$PROJECT_DIR$/src/exercises/SimpleSpice.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/AquariumFish.kt" />
         <option value="$PROJECT_DIR$/src/exercises/Spice.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/Decorations/Decorations.kt" />
-        <option value="$PROJECT_DIR$/src/exercises/main.kt" />
         <option value="$PROJECT_DIR$/src/exercises/spices/SimpleSpice.kt" />
         <option value="$PROJECT_DIR$/src/exercises/Book.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/buildings/Buildings.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/main.kt" />
+        <option value="$PROJECT_DIR$/src/exercises/Directions.kt" />
+        <option value="$PROJECT_DIR$/src/Aquarium5/Aquarium5.kt" />
+        <option value="$PROJECT_DIR$/src/Exercises.kt" />
+        <option value="$PROJECT_DIR$/src/exercises/Game.kt" />
+        <option value="$PROJECT_DIR$/src/exercises/main.kt" />
       </list>
     </option>
   </component>
@@ -148,21 +187,13 @@
               <item name="googleBootcamp" type="b2602c69:ProjectViewProjectNode" />
               <item name="googleBootcamp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Aquarium" type="462c0819:PsiDirectoryNode" />
+              <item name="Aquarium5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="googleBootcamp" type="b2602c69:ProjectViewProjectNode" />
               <item name="googleBootcamp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Aquarium" type="462c0819:PsiDirectoryNode" />
-              <item name="buildings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="googleBootcamp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="googleBootcamp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Aquarium" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Aquarium.buildings.MainKt">
+  <component name="RunManager" selected="Kotlin.exercises.MainKt">
     <configuration name="Aquarium.buildings.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Hello Kotlin" />
       <option name="VM_PARAMETERS" />
@@ -270,11 +301,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.exercises.MainKt" />
         <item itemvalue="Kotlin.Aquarium.buildings.MainKt" />
         <item itemvalue="Kotlin.Aquarium.generics.MainKt" />
         <item itemvalue="Kotlin.exercises.BookKt" />
         <item itemvalue="Kotlin.exercises.spices.SimpleSpiceKt" />
-        <item itemvalue="Kotlin.exercises.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +324,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1600" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22336328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -380,13 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercises/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/spices/SimpleSpice.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-556">
@@ -412,16 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercises.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,6 +470,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/Directions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aquarium5/Aquarium5.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercises.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/Game.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
