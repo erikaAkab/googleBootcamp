@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa3f6a5-769b-4f18-8677-2bd8e01b9707" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Aquarium/buildings/Buildings.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/MainKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/META-INF/Hello Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/META-INF/Hello Kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/buildings/Building.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/buildings/Building.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/buildings/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/buildings/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aquarium/buildings/Buildings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/buildings/Buildings.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aquarium/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aquarium/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -81,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aquarium/buildings/Buildings.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+            <state relative-caret-position="345">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -115,8 +114,8 @@
         <option value="$PROJECT_DIR$/src/exercises/spices/SimpleSpice.kt" />
         <option value="$PROJECT_DIR$/src/exercises/Book.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt" />
-        <option value="$PROJECT_DIR$/src/Aquarium/main.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/buildings/Buildings.kt" />
+        <option value="$PROJECT_DIR$/src/Aquarium/main.kt" />
       </list>
     </option>
   </component>
@@ -294,6 +293,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1600" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22336328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -322,6 +322,34 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22336328" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28025478" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32866243" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Aquarium/Fish.kt">
@@ -420,15 +448,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Aquarium/buildings/Buildings.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        <state relative-caret-position="345">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Aquarium/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>

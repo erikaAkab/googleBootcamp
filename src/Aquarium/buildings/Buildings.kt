@@ -12,11 +12,15 @@ class Brick: BaseBuildingMaterial() {
     override val numberNeeded = 8
 }
 
-class Building<T : BaseBuildingMaterial>(val baseBuildingMaterial: T) {
+class Building<out T : BaseBuildingMaterial>(val baseBuildingMaterial: T) {
     val baseMaterialsNeeded = 100
     val actualMaterialsNeeded = baseMaterialsNeeded.times(baseBuildingMaterial.numberNeeded)
 
     fun build() {
         println("Type: ${baseBuildingMaterial::class.simpleName}. Number of materials needed: $actualMaterialsNeeded")
+    }
+
+    fun <T : BaseBuildingMaterial> isSmallBuilding(build : Building<T>) {
+        if (build.actualMaterialsNeeded < 500) println("small building") else print("large building")
     }
 }

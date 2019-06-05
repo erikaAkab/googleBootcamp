@@ -1,10 +1,26 @@
 package Aquarium.buildings
 
 fun main(args: Array<String>) {
-    val build = Aquarium.buildings.Building(Wood())
-    build.build()
+//    val build = Aquarium.buildings.Building(Wood())
+//    build.build()
+//    build.isSmallBuilding(build)
 //    fishExample()
+
+    labels()
 }
+
+fun labels() {
+    loop@ for (i in 1..100) {
+        println("i is: $i")
+        for (j in 1..100) {
+            println("j is: $j")
+            if (i > 10) break@loop
+        }
+    }
+
+    println("OPS")
+}
+
 
 //fun buildAquarium() {
 //    val myAquarium = Aquarium()
